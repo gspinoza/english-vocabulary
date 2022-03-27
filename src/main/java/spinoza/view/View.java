@@ -554,7 +554,7 @@ public class View {
      */
     public void setCheckNextButtonText(String NextCheck){
     	CheckNextButton.setText(NextCheck); // set text to "Check" or "Next"
-    	CheckNextButton.setForeground(Color.WHITE);
+    	CheckNextButton.setForeground(Color.BLACK);
     	if (NextCheck.equals("Check"))
     		CheckNextButton.setBackground(new Color(101,171,0)); // green
     	else
